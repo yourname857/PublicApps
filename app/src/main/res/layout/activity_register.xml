@@ -132,6 +132,18 @@
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/darker_gray" />
 
+            <!-- Show/Hide Password Button -->
+            <ImageView
+                android:id="@+id/showPasswordIcon"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_launcher_keyoff"
+                android:layout_marginTop="-40dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="265dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="Show/Hide Password"/>
+
             <!-- Tombol Registrasi -->
             <Button
                 android:id="@+id/registerButton"

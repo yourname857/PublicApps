@@ -23,9 +23,14 @@
             </intent-filter>
         </activity>
 
-        <!-- Login/Register -->
+        <!-- Login Activity -->
         <activity
             android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- Register Activity (Tambahan) -->
+        <activity
+            android:name=".RegisterActivity"
             android:exported="true" />
 
         <!-- MainActivity -->
