@@ -38,6 +38,14 @@
             android:name=".MainActivity"
             android:exported="true" />
 
+        <!-- MBHTActivity -->
+        <activity
+            android:name=".BhtActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
+
+
+

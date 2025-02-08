@@ -1,7 +1,9 @@
 package com.myapp.publicserviceapps
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -9,9 +11,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main) // Pastikan nama XML sesuai
+        setContentView(R.layout.activity_main) // Pastikan XML sesuai
 
-        // Bottom Navigation
+        // Inisialisasi Bottom Navigation
         val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
         bottomNavigation.setOnItemSelectedListener { menuItem: MenuItem ->
@@ -26,6 +28,13 @@ class MainActivity : AppCompatActivity() {
                 }
                 else -> false
             }
+        }
+
+        // Tombol Pengambilan Surat BHT
+        val btnBht = findViewById<LinearLayout>(R.id.btnBht)
+        btnBht.setOnClickListener {
+            val intent = Intent(this, BhtActivity::class.java)
+            startActivity(intent)
         }
     }
 
