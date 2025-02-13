@@ -36,7 +36,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BhtActivity::class.java)
             startActivity(intent)
         }
+
+        // Tombol Berita
+        val btnBerita = findViewById<LinearLayout>(R.id.btnBerita)
+        btnBerita.setOnClickListener {
+            val intent = Intent(this, BeritaActivity::class.java)
+            startActivity(intent)
+        }
+
     }
+
+
 
     private fun showToast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()

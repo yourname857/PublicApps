@@ -28,7 +28,7 @@
             android:name=".LoginActivity"
             android:exported="true" />
 
-        <!-- Register Activity (Tambahan) -->
+        <!-- Register Activity -->
         <activity
             android:name=".RegisterActivity"
             android:exported="true" />
@@ -38,9 +38,14 @@
             android:name=".MainActivity"
             android:exported="true" />
 
-        <!-- MBHTActivity -->
+        <!-- BHTActivity -->
         <activity
             android:name=".BhtActivity"
+            android:exported="true" />
+
+        <!-- BeritaActivity -->
+        <activity
+            android:name=".BeritaActivity"
             android:exported="true" />
 
     </application>

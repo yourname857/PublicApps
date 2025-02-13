@@ -91,6 +91,7 @@
 
         <!-- Button Berita -->
         <LinearLayout
+            android:id="@+id/btnBerita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

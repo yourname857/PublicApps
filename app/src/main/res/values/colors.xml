@@ -7,4 +7,9 @@
     <color name="green">#123524</color>
     <color name="my_background_color">#F5F5F5</color>
     <color name="dark_green">#004D25</color>
+    <color name="background_grey">#F5F5F5</color>
+    <color name="dark_gren">#006400</color>
+    <color name="medium_green">#008000</color>
+    <color name="light_green">#A5D6A7</color>
+    <color name="grey">#757575</color>
 </resources>
