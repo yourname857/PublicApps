@@ -48,7 +48,6 @@ class BeritaActivity : AppCompatActivity() {
             // Implementasi untuk menampilkan notifikasi
         }
 
-
         // Handle search click
         findViewById<View>(R.id.searchLayout).setOnClickListener {
             // Implementasi untuk memulai pencarian
