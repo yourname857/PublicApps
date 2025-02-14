@@ -48,6 +48,21 @@
             android:name=".BeritaActivity"
             android:exported="true" />
 
+        <!-- ProfilActivity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+
+        <!-- edit profil Activity -->
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+
+        <!-- edit akun Activity -->
+        <activity
+            android:name=".EditAkunActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
